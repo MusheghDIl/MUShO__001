@@ -1,0 +1,52 @@
+.bigbox{
+    width: 100%;
+    height: 500px;
+    border: solid 2px black;
+    position: relative;
+   
+}
+
+.score1{
+    display: inline-block;
+}
+.body{
+   
+}
+.smollfly{
+    width: 50px;
+    height: 50px;
+    background-image: url(../MUSH/image/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: 0.5s;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: url('../MUSH/image/images_1.jpg'),auto;
+
+}
+
+
+.text{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    display: inline-block;  
+}
+
+.score{
+    text-align: center;
+    font-size: 30px;
+}
+
+.fly1{
+    position: relative;
+    right: 55px;
+}
+
+.fly2{
+    width: 50px;
+    height: 50px;
+}
