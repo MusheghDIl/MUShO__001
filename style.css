@@ -3,14 +3,11 @@
     height: 500px;
     border: solid 2px black;
     position: relative;
-   
+    cursor: url(../MUSH/image/images_1.png), auto;
 }
 
 .score1{
     display: inline-block;
-}
-.body{
-   
 }
 .smollfly{
     width: 50px;
@@ -24,8 +21,6 @@
     z-index: 1;
     top: 0;
     left: 0;
-    cursor: url('../MUSH/image/images_1.jpg'),auto;
-
 }
 
 
